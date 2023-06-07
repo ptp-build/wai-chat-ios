@@ -116,7 +116,7 @@
 		508521C5246E48CB004DC6B4 /* BoardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardCollectionViewCell.swift; sourceTree = "<group>"; };
 		508521C6246E48CB004DC6B4 /* ComicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicCollectionViewCell.swift; sourceTree = "<group>"; };
 		50C3B28E246D494300D65162 /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
-		50EE1D71246BEC7100C4CF28 /* U17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = U17.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EE1D71246BEC7100C4CF28 /* Wai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EE1D74246BEC7100C4CF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50EE1D7D246BEC7300C4CF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50EE1D80246BEC7300C4CF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -312,7 +312,7 @@
 		50EE1D72246BEC7100C4CF28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50EE1D71246BEC7100C4CF28 /* U17.app */,
+				50EE1D71246BEC7100C4CF28 /* Wai.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -580,7 +580,7 @@
 			);
 			name = U17;
 			productName = U17;
-			productReference = 50EE1D71246BEC7100C4CF28 /* U17.app */;
+			productReference = 50EE1D71246BEC7100C4CF28 /* Wai.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -591,7 +591,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = "胡智钦";
+				ORGANIZATIONNAME = Barry;
 				TargetAttributes = {
 					50EE1D70246BEC7100C4CF28 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -885,13 +885,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WM9QHMV8W7;
 				INFOPLIST_FILE = U17/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wai;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chat.wai.ios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wai;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -907,13 +908,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WM9QHMV8W7;
 				INFOPLIST_FILE = U17/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Wai;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chat.wai.ios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wai;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

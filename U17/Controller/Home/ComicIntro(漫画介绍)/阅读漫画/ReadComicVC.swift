@@ -253,11 +253,12 @@ extension ReadComicVC:UICollectionViewDelegateFlowLayout, UICollectionViewDataSo
 //        let width = backScrollView.frame.width
 //        let imgW = CGFloat((((image.width! ) as String) as NSString).floatValue)
 //        let imgH = CGFloat((((image.height! ) as String) as NSString).floatValue)
+        //        let height = floor(width / imgW * imgH)
+
         let width = 1
         let imgW = 1
         let imgH = 1
-        let imgHheight= 1
-        let height = floor(width / imgW * imgH)
+        let height = 1
         return CGSize(width: width, height: height)
     }
     
